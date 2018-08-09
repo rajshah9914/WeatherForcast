@@ -1,0 +1,39 @@
+This is a exercise based on implementation of Linear Regression from 
+scratch on Octave 4.04.
+
+Getting Started:-
+1.Download Octave;
+Easily fetched from net for any OS.
+
+2.Building Project:-
+This can easily be done just by a git clone command.
+
+3.Running on your PC:-
+Just skim to your directory where it is git cloned through a 
+'cd' command via Octave.
+
+File included:-
+
+1.weather_data.txt
+2.weather_predict.m 
+3.grad_des.m 
+4.Cost.m
+5.feature_normalize.m
+
+Short Description:-
+
+1.weather_data:- It is a text document that contains the dataset of 
+temperatures on different days.
+
+2.weather_predict.m :- To understand more better, it is just like a main() 
+function in  C which calls other functions for their execution.
+
+3.grad_des.m :-This is one of the core function behind Linear Regression 
+Model that decides various theta(variable used) values appropriately.
+
+4.Cost.m :- This is a Cost function which is the sum total of mean-square 
+error between predicted and actual value of the model.
+
+5.feature_normalize.m :- In this function, the input features are 
+normalized and feature-scaling is applied.
+
