@@ -1,3 +1,4 @@
+Aim:-
 This is a exercise based on implementation of Linear Regression from 
 scratch on Octave 4.04.
 
@@ -23,17 +24,46 @@ File included:-
 Short Description:-
 
 1.weather_data:- It is a text document that contains the dataset of 
-temperatures on different days.
+                 temperatures on different days.
+                 The dataset contains maximum,minimum temperature,precipitation of a particular
+                 day.
+                 Consists of 3 features as input and one output. This is a multivariate Linear
+                 Regression consisting of 367 training data examples after which a model can 
+                 be tested to a great level of accuracy.
 
 2.weather_predict.m :- To understand more better, it is just like a main() 
-function in  C which calls other functions for their execution.
+                 function in  C which calls other functions for their execution.
+                 This is the structure of the project where each and every function,variable, 
+                 loading of dataset is predefined.
 
-3.grad_des.m :-This is one of the core function behind Linear Regression 
-Model that decides various theta(variable used) values appropriately.
+3.grad_des.m :-  This is one of the core function behind Linear Regression 
+                 Model that decides various theta(variable used) values appropriately.
 
-4.Cost.m :- This is a Cost function which is the sum total of mean-square 
-error between predicted and actual value of the model.
+4.Cost.m :-      This is a Cost function which is the sum total of mean-square 
+                 error between predicted and actual value of the model.
 
 5.feature_normalize.m :- In this function, the input features are 
-normalized and feature-scaling is applied.
+                 normalized and feature-scaling is applied.
+                 
+                 
+Approach to Final Results:-
+1.Structure:-
+             To comprehend my code, I designed a specific strucure,i.e. thought which functions will I 
+             need to create and fill it to reach at an outcome.
+
+2.Code:-
+            Begin to complete my structure.
+
+3.Debugging:-
+            This was one of the most time-consuming but a part which make you 
+            learn a lot.
+            Discovering various types of errors,finding out typos,printing the values 
+            so as to be familiar with dimensions of variables used, just a dream come true after 
+            searching those and editing it.
+
+4.Run:- The pleasure to the accuracy you get after succesfully compiling and running
+        the codes.
+        This is what I say "End In Style". 
+                 
+                 
 
